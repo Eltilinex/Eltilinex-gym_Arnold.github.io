@@ -1,0 +1,127 @@
+/*
+css: cascade style sheet= hoja de estilo en cascada
+apariencias y distribucion del sitio
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+body{
+  font-family: "Jacquard 12", system-ui;
+}
+/*etiquetas agrupadas ( selcetor grouping)*/
+/*↓lo realcionado con index*/
+h1 {
+  color:#FFFFFF;/*color del frente*/
+  background-color:#2B4A73;/*color del fondo del caja */
+  padding: 25px;/*ancho del marco interno*/
+  border-radius: 8px;/*redondeo de los bordes de la caja*/
+  text-align: center;/*aplicacion del texto contenido en la caja*/
+  border: 5px  solid rgb(0, 0, 0);/*estilo de borde y el color */
+}
+.especial{
+background-color:#2B4A73;
+color:#FFFFFF;
+}
+.contenedor{
+width: 100%;/*ancho de la capa contenedora*/
+margin: 0 auto ; /*centra el contenedor*/
+background-color: #3A6EA5;
+
+}
+.principal{
+ /* width: 650px; medida absoluta, un numero fijo*/
+ width: 50%;
+  float: left;/*maquetacion flotante a la izquierda*/
+  background-color: #3A6EA5;
+}
+
+.lateral{
+  /*width: 300px; medida absoluta, numero fijo, evitar*/
+  width: 45%;
+  float: right;
+  background-color: #3A6EA5;
+}
+
+.pie_pagina{
+  clear: both;
+  color:#D7E7F5;
+  background-color: black;
+  padding: 30px;
+  height: 150px;
+font-size: 14px;
+
+}
+.info{
+  float: left;
+  width: 45%;
+}
+.rsocial{
+  float: right;
+width: 45%;
+}
+/* diagramacion del menu */
+.menu{
+  background-color:#3A6EA5;
+  padding: 25px;
+  text-align: center;
+
+}
+
+.menu ul li{
+  display: inline;
+  padding: 10px;
+  list-style: none;
+  border-style: solid;
+  border-color:#D7E7F5 ;
+  margin-left: 20px;
+  border-radius: 15px;
+  background-color:#1B263B;
+  box-shadow: 7px 4px #D7E7F5;
+  }
+ 
+
+.menu>ul>li>a{
+  color: aliceblue;
+  text-decoration: none;  
+}
+/*estas utilizando una pseudocodigo de CSS, HOVER reacciona al cursor*/
+.menu ul li a:hover{
+color: rgb(255, 0, 0);
+font-size: 1.5em;/*medida relativa para fuentes*/
+/*↑ lo relacionado con index*/
+
+}
+input[type="password"]:hover{
+  background-color: aqua;
+  padding: 10px;
+  color:chocolate;
+}
+.cabecera{
+  text-align: center;
+  background-color:  #2B4A73;
+  padding: 10px;
+}
+
+.tabla,tr,td,th{
+  width: 500px;
+  text-align: center;
+  border:solid 2px;
+  border-color: black;
+}
+
+.logos{
+  border-radius: 12px;
+}
+
+.tabla2,th,tr,td{
+  width: 770px;
+  text-align: center;
+  border:solid 2px;
+  border-color: black;
+}
+
+.imagen{
+  display: block;
+  max-width: 100%;
+  text-align: center;
+padding: 2px;
+}

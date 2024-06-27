@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto: sitio de arnold</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="shortcut icon" href="/assets/images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+  <div class="cabecera">
+    <!--img para imagen src es source o nombre de la imagen alt es para una descripcion de la imagen, sirve para los invidentes srcset para descripcion de navegadores-->
+    <img class="logos"
+     src="./assets/images/logo.jpg"
+     alt="el logo del gimnsaio" 
+     srcset="./assets/images/logo.jpg">
+     <h1>ARNOLD GYM</h1>
+    </div>
+  <div class="menu">
+    <ul>
+      <li>
+          <a href="index.html">inicio</a>
+      </li>
+      <li>
+          <a href="servicios.html">servicios</a>
+      </li>
+      <li>
+          <a href="articulos.html">articulos</a>
+      </li>
+      <li>
+          <a href="contacto.html">contacto</a>
+      </li>
+     </ul>
+
+  </div>
+  <div class="contenedor">
+    
+     para mas informacion llena los siguientes elementos del formulario
+     <br>
+     <br>
+     <!--la etiqueta de formulario form-->
+     <!--inicio del formulario-->
+     <form>
+      <!--caja de texto o input:text-->
+      <label for="nombre">nombre:</label>
+    <input type="text" name="nombre" id="nombre" placeholder="nombre">
+    <br>
+    <br>
+   <label for="apellidos">apellido</label>
+    <input type="text" name="apellidos" id="apellidos" placeholder="apellidos">
+    <br>
+    <br>
+    escriba comentario o solicitud
+    <textarea name="comentarios" id="comentarios" cols="50" rows="8"></textarea>
+    seleccione su sexo
+    <select name="sexo" id="sexo">
+      <option value="M">masculino</option>
+    <option value="F">femenino</option>
+    <option value="NB">no binario</option>
+    </select>
+    <br>
+    <br>
+    escriba su edad 
+    <input type="number" name="edad" id="edad">
+    <br>
+    <br>
+    seleccione las actividades preferidas
+    <br>
+    <br>
+    Pesas:
+    <input type="checkbox" name="gimnasio" id="gimnasio">
+    <br>
+  Gimnasio:
+    <input type="checkbox" name="pesas" id="pesas">
+    <br>
+    Natacion:
+    <input type="checkbox" name="natacion" id="natacion">
+    <br>
+    pilates:
+    <input type="checkbox" name="ninguna" id="ninguna">
+    <!--campo oculto o hidden-->
+    <input type="hidden" name="oculto" value="pasword345">
+    <br>
+    <br>
+
+    complementa tus datos 
+    <br>
+    <input type="image" src="./assets/images/pesas.webp" alt="lokospartuido" srcset="./assets/images/pesas.webp"
+    width="200">
+    <br><br>
+    escriba su fecha de nacimiento
+    <input type="date" name="fechaNace" id="FechaNace">
+    <br><br>
+    escribe su email:
+    <input type="email" name="email" id="email">
+    <br>
+    <br>
+    ingrese la clave:
+    <input type="password" name="pasword" id="pasword">
+    <br>
+    <br>
+  deslice para mostrar:
+  <input type="range" name="rango" id="rango">
+  <br><br>
+  suba el archivo a enviar:
+  <input type="file" name="archivo" id="archivo">
+  <br><br>
+    <input type="reset" value="cancelar">
+    <input type="submit" value="enviar">
+     </form>
+     <div class="pie_pagina" > 
+      <div class ="info">
+         derechos de autor  &#169; copyraight: warson Inc &#x2707;
+         <br>
+         calle cliente con olla numero 3
+         <br>
+         telefono:3215277303
+         <br>
+         cartago valle 
+      </div>
+      <div class="rsocial">
+          <a href="https://www.facebook.com/groups/1313601632564156/?hoisted_section_header_type=recently_seen&multi_permalinks=1517528962171421&locale=es_LA">
+           <img src="./assets/images/facebook.png" alt="facebook de arnold" srcset="./assets/images/facebook.png">
+          </a>
+      <br>
+      <a href="https://www.instagram.com/3dbellan/">
+       <img src="./assets/images/instagram.png" alt="instagram de arnold" srcset="./assets/images/instagram.png">
+      </a>
+      <br>
+          <a href="mailto:nikodenyer09@gmail.com">
+           <img src="./assets/images/social.png" alt="gmail arnold" srcset="./assets/images/social.png">
+          </a>
+       </div>
+     </div>
+  </div>
+    
+</body>
+</html>

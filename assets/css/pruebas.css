@@ -1,0 +1,27 @@
+.contenedor {
+    width: 100%;
+    background-color: blue;
+    padding: 5px;
+    margin: 0 auto;/* centrar*/
+    height: 800px;
+  }
+  
+  .ancho25 {
+    width: 24%;
+    float: left;
+    background-color: #d2ed64;
+    margin: 2px;
+  }
+  .ancho33 {
+    width: 28%;
+    float: left;
+    background-color: #ed7f64;
+    margin: 1px;
+  }
+  
+  .ancho50 {
+    width: 45%;
+    float: left;
+    background-color: #64ed8b;
+    margin: 1px;
+  }
